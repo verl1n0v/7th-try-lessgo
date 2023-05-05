@@ -1,0 +1,43 @@
+html{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+video {
+    width: 530px;
+    height: 600px;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 85%;
+    left: 50%;
+}
+h1 {
+  padding: 58px;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color:rgb(0, 0, 0);
+}
+.button{
+    display: block;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    border-radius: 10px;
+    width: 400px;
+    transition: all 0.5s ease;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+  
